@@ -1,28 +1,39 @@
-# INTRODUCAO-JAVA
+# REVISÃO JAVA
 
-VARIÁVEL
+
+🔺 VARIÁVEL
 > Um espaço na memória do computador, onde se pode guardar valores
+
+
 
 Existem 4 tipos:
 
-1. Instância: objeto
-2. Classe: classe
-3. Local: dentro de métodos
-4. Parâmetro: Na assinatura do método
+🔹 1. Instância: objeto
+
+🔹 2. Classe: classe
+
+🔹 3.Local: dentro de métodos
+
+🔹 4. Parâmetro: Na assinatura do método
 
 Padrão de definição da variável:
-<?visibilidade?><?modificador?>tipo nome<?=valor inicial?>
-
+> <?visibilidade?><?modificador?>tipo nome<?=valor inicial?>
+> 
 
 obs:. O que está entre interrogações é opcional, vai depender da necessidade
 
-visibilidade:  > "public", "protected" e "private"
-modificador:  > "static" e "final(constante)"
-tipo: tipo de dado 
-nome: Nome que é fornecido a variável
-valor inicial: Um valor inicial, caso deseje
+visibilidade:  
+> "public", "protected" e "private"
+modificador: 
+> "static" e "final(constante)"
+tipo:
+> tipo de dado 
+nome: 
+> Nome que é fornecido a variável
+valor inicial: 
+> Um valor inicial, caso deseje
 
-Convenções e regras:
+📍 Convenções e regras:
 
  - Não devem começar com números
  - Embora permitido, "$" e "_" devem ser evitados;
@@ -30,11 +41,11 @@ Convenções e regras:
  - Sem espaços
  - Não podem ser as palavras reservadas do Java
 
-TIPOS DE DADOS
+🔺  TIPOS DE DADOS
 
 São os valores e consequentemente operações que as variáveis podem assumir e sofrer, respectivamente.
 
-Tipos de dados
+📍 Tipos de dados
 
 - Textual
 - Numeral
@@ -42,27 +53,61 @@ Tipos de dados
 - Objeto
 
 
-Tipificação:
+📍 Tipificação:
+- Estática 
+> (forte) - obriga você a criar a variável já com o tipo
+- Dinâmica 
+>  (fraco) - pode ser detectado o tipo durante a compilação
+- Primitivo
+> Tipos básicos, numéricos
+-  Composto 
+> É heterogênio, pode ser composto de vários dados
 
-- Estática > (forte) - obriga você a criar a variável já com o tipo
+📍 Capacidade de armazenamento das variáveis
 
-- Dinâmica >  (fraco) - pode ser detectado o tipo durante a compilação
+ - byte > -128 até 127 bytes
+ - short > -32.768 ate 32.767 
+ - int > 32 bits
+ - long > 64 bits
+ - float > 32 bits
+ - douuble > 64 bits
 
-- Primitivo > Tipos básicos, numéricos
+🔺 OPERADORES ARITMÉTICOS
 
--  Composto > É heterogênio, pode ser composto de vários dados
+> São símbolos especiais que são capazes de realizar ações específicas em um, dois ou mais operandos e, em seguida, retornar um resultado.
 
-Capacidade de armazenamento das variáveis
+Tipos
 
-byte > -128 até 127 bytes
+ - pós-fixado: exp++ ou exp--
+ - prefixado: ++exp ou --exp
+ - aritmético: +,=,*,/,%
+ - atribuição: =,+=,-=,*=,/=, e %=
 
-short > -32.768 ate 32.767 
+PRECEDÊNCIAS(Ordem em que o java executa)
 
-int > 32 bits
+ - pós-fixado: exp++ ou exp--
+ - prefixado: ++exp ou --exp
+ - Multiplicativo: *,/,%
+ - Aditivo: +, -
+ - Atribuição: =, +=, -=, *=,/=,%=
 
-long > 64 bits
 
-float > 32 bits
 
-douuble > 64 bits
+🔺 CASTING
+
+> É a transformação de uma determinada variável de tipo menos específico para um tipo mais específico ou vice-versa.
+
+Tipos
+
+ - Upcast(implícito)
+ - Downcast(explícito)
+
+
+
+
+
+
+
+
+
 
