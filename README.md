@@ -150,6 +150,34 @@ Assinatura: calcularTotalVenda(double precoItem1, double precoItem2)
 🔹 4. Passagem de parâmetros:
  - Por valor (cópia)
  - Por referência (endereço) 
+ 
+ 🔺 SOBRECARGA
+> É a capacidade de definir métodos para diferentes contextos, mas preservando  seu nome.
+
+Alterar a assinatura do método: 
+> Ass = nome + parâmetros
+
+Exemplo:
+ - converterParaInteiro(float f);
+ - converterParaInteiro(double d);
+ - converterParaInteiro(String s);
+ - converterParaInteiro(float f, RoundType rd(roundtype arredonda para baixo ou para cima));
+
+ - converterParaInteiro(RoundType rd,  String s);
+ - converterParaInteiro();
+
+🔺RETORNO(RETURN)
+
+📍Funcionamento:
+
+ O método executa seu retorno quando:
+ - Completa todas as suas instruções internas
+ - Chega a uma declaração explícita de retorno
+ - Lança uma exceção
+
+ - O tipo de retorno do método é definido na sua criação e pode ser um tipo primitivo ou objeto;
+ - O tipo de dado do return deve ser compatível com o do método;
+ - Se o método for sem retorno(void), pode ou não ter um "return" para encerrar sua execução.
 
 
 
