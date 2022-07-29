@@ -101,6 +101,57 @@ Tipos
 
  - Upcast(implícito)
  - Downcast(explícito)
+ 
+ 🔺 MÉTODO:
+
+> É uma porção de código (sub-rotina) que é disponibilizada por uma classe. Este é executado quando é feita uma requisição a ele. São responsáveis por definir e realizar um determinado comportamento.
+
+🔺 Criação de um método
+
+📍 Padrão de definição completo (vazio):
+> <?visibilidade?><?tipo?><?modificador?> retorno nome(<?parâmetros?>)<?exceções?>corpo
+
+Onde:
+
+ 🔹 1. visibilidade: 
+> "public", "protected" ou "private"
+ 🔹 2. tipo:
+>  concreto ou abstrato
+ 🔹 3. modificador:
+> "static" ou "final"
+ 🔹 4. retorno :
+> tipo de dado(string, int, float, double) ou void(vazio)
+ 🔹 5. nome:
+>  Nome que é fornecido ao método
+ 🔹 6. parâmetros:
+> Parâmetros que pode receber
+ 🔹 7. exceções:
+> Exceções que pode lançar
+ 🔹 8. corpo:
+> Código que possui ou vazio
+
+🔺PARTICULARIDADES
+
+🔹 1. Assinatura
+> É a forma de identificar unicamente o método
+Ass = nome + parâmetros
+
+Exemplo:
+Método
+public double calcularTotalVenda(double precoItem1, double precoItem2)
+{...}
+
+Assinatura: calcularTotalVenda(double precoItem1, double precoItem2)
+
+🔹 2. Construtor e Destrutor: São métodos especiais usados na Orientação a Objetos.
+
+🔹 3. Mensagem: É o ato de solicitar ao método que o mesmo execute. Esta pode ser direcionada a um objeto ou a uma classe.
+
+🔹 4. Passagem de parâmetros:
+ - Por valor (cópia)
+ - Por referência (endereço) 
+
+
 
 
 
