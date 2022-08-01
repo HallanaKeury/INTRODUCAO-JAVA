@@ -178,6 +178,111 @@ Exemplo:
  - O tipo de retorno do método é definido na sua criação e pode ser um tipo primitivo ou objeto;
  - O tipo de dado do return deve ser compatível com o do método;
  - Se o método for sem retorno(void), pode ou não ter um "return" para encerrar sua execução.
+ 
+ 
+🔺 OPERADORES RELACIONAIS
+> São símbolos especiais quais são capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado.
+
+📍 TIPOS:
+
+- Similaridade: 
+>  Igualdade: Determina se um operando é igual ao outro
+>  Diferença: Determina se um operando não é igual ao outro.
+
+- Tamanho: 
+> Maior: Determina se um operando é maior do que o outro.
+> Maior Igual: Determina se um operando é maior ou igual a outro.
+> Menor: Determina se um operando é menor do que o outro.
+> Menor igual: Determina se um operando é menor ou igual ao outro.
+
+ - Simbologia:
+> Igualdade: ==
+> Diferença: !=
+> Maior: >
+> Maior ou igual: >=
+> Menor: <
+> Menor igual: >=
+
+🔺 OPERADORES LÓGICOS
+> São símbolos especiais que são capazes de realizar comparações lógicas entre operandos lógicos ou expressões e, em seguida, retornar um resultado.
+
+📍 TIPOS:
+
+ - Conjunção
+> Operação lógica que só é verdadeira quando ambos os operadores ou expressões são verdadeiras
+
+Simbologia: &&
+
+Terminologia: and(e)
+
+ - Disjunção
+> Operação que só é falsa quando ambos os operandos ou expressões são falsas.
+
+Simbologia: ||
+
+Terminologia: or(ou)
+
+ - Disjunção exclusiva
+> Operação que só é verdade quando ambos os operandos ou expressões são opostos
+
+Simbologia: ^
+
+Terminologia: xor
+
+ - Negação
+> Operação que inverte o valor lógico de um operando ou expressão.
+
+Simbologia: !
+
+Terminologia: Inversão
+
+🔺 CONTROLE DE FLUXO
+> São estruturas que tem a capacidade de direcionar o fluxo d execução do código.
+
+📍 TIPOS:
+
+ - Decisão:
+> Estrutura que avalia uma condição booleana ou variável para direcionar o fluxo de execução.
+
+🔹 1.  if, if-else, if-else-if
+
+🔹 2.  switch (variáveis usadas: byte,short,char,INT,ENUM,STRING)
+
+🔹 3. operador ternário
+
+
+ - Repetição:
+ 
+ 
+🔹 1.  for
+
+🔹 2.  while
+
+🔹 3.  do while
+
+ - Interrupção:
+ 
+🔹 1.  break
+
+🔹 2.  continue
+
+🔹 3.  return
+
+
+🔺 BLOCOS DE EXECUÇÃO
+>  É um grupo de 0 ou mais códigos que trabalham em conjunto para executar uma operação.
+
+📍 TIPOS:
+
+ - Locais: Dentro de métodos
+
+{
+...
+}
+
+ - Estáticos: Dentro de classes
+ - Instância : Dentro de classes
+
 
 
 
